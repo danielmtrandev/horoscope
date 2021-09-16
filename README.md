@@ -6,7 +6,7 @@ This is my simple horoscope project! Users can input their birthday (month/day) 
 
 <img src="horoscope.png"></img>
 
-Link to live site: <a href="https://danielmtran-horoscope.netlify.app"></a>
+Link to live site: [https://danielmtran-horoscope.netlify.app]
 
 
 ### How It's Made:
