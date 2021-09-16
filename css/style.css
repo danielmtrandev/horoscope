@@ -1,0 +1,131 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-image: url(https://images.unsplash.com/photo-1580493113011-ad79f792a7c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2775&q=80);
+     background-size: cover;
+     background-position-y: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+li {
+     list-style: none;
+   }
+   
+a {
+     text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.title{
+     font-size: 3rem;
+     text-align: center;
+     color: white;
+     border: solid white;
+     width: 40%;
+}
+
+.birth-box{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.birth-check{
+     margin-top: 5%;
+}
+
+.birth-button{
+     font-size: 1.5rem;
+     color: white;
+     background: transparent;
+     border: none;
+}
+
+#month-input{
+     background: transparent;
+
+}
+
+#day-input{
+     background: transparent;
+
+}
+
+.results-box{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.results-title{
+     font-size: 3rem;
+     line-height: 0;
+     color: gray;
+}
+
+.results-text{
+     font-size: 1rem;
+     width: 40%;
+     color: gray;
+}
+
+.results-pic{
+     height: 25rem;
+     width: 30%;
+     border: 2px solid rgb(227,223,209);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* https://www.apartmenttherapy.com/this-is-your-color-power-according-to-your-astrological-sign-36629958 */
